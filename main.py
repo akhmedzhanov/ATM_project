@@ -2,7 +2,6 @@
 from config import host, user, password, db_name
 from query_statements import connect_db, create_table, insert_data, select_atm_to_fix,\
      select_atm_to_withdraw, select_atm_to_fill
-import csv
 
 
 #just create db on your localhost with name 'atm_db'
